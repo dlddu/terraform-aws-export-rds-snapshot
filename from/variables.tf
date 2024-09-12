@@ -2,11 +2,7 @@ variable "region" {
   type = string
 }
 
-variable "from_profile" {
-  type = string
-}
-
-variable "to_profile" {
+variable "profile" {
   type = string
 }
 
@@ -18,6 +14,6 @@ variable "intermediate_snapshot_name" {
   type = string
 }
 
-variable "to_snapshot_name" {
+variable "to_account_id" {
   type = string
 }
