@@ -1,3 +1,5 @@
+data "aws_caller_identity" "this" {}
+
 resource "aws_kms_key" "this" {}
 
 data "aws_iam_policy_document" "this" {

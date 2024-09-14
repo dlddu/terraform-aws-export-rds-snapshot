@@ -1,8 +1,3 @@
-provider "aws" {
-  region  = var.region
-  profile = var.profile
-}
-
 data "aws_kms_key" "this" {
   key_id = "alias/aws/rds"
 }

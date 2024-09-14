@@ -1,11 +1,3 @@
-variable "region" {
-  type = string
-}
-
-variable "profile" {
-  type = string
-}
-
 variable "from_snapshot_name" {
   type = string
 }
